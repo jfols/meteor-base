@@ -5,4 +5,4 @@ FROM node:latest
 RUN curl https://install.meteor.com | sh
 
 # used to update settings files with generated urls
-RUN npm i -g json
+RUN npm i -g json node-gyp
